@@ -1,8 +1,3 @@
-.Container {
-  height: auto;
-  width: 100%;
-  justify-content: center;
-}
 .ListItem {
   width: 600px;
   background-color: white;
@@ -21,6 +16,6 @@ h1 {
 .description {
   width: 600px;
   text-align: justify;
-  border: 1px solid black;
+  border: 1px solid rgba(247, 175, 49, 0.5);
   padding: 10px;
 }

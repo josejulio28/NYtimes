@@ -9,6 +9,7 @@ const SearchPage = () => {
   const [term, setTerm] = useState("");
   const [searchResults, setSearchResults] = useState([]);
   const dispatch = useDispatch();
+  const [isLoading, setIsLoading] = useState(true);
   const articles = useSelector(selectArticles);
 
   useEffect(() => {
@@ -22,6 +23,7 @@ const SearchPage = () => {
         console.log(articles.response.docs);
         setSearchResults(articles.response.docs);
         dispatch(setArticlesAction(articles.response.docs));
+        setIsLoading(false);
       } catch (error) {
         console.error(error);
       }
@@ -39,8 +41,13 @@ const SearchPage = () => {
         word, it will give you ten interesting articles. To read the article on
         the New York Times website, click on the tilte.
       </p>
+
       <SearchBar searchTerm={(text) => setTerm(text)} />
-      <ArticlesList articles={searchResults} />
+      {isLoading ? (
+        <h1>Loading ...</h1>
+      ) : (
+        <ArticlesList articles={searchResults} />
+      )}
       {/* {articles && <ArticlesList articles={articles} />} */}
     </div>
   );

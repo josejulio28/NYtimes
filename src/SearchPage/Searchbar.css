@@ -6,19 +6,23 @@
   height: fit-content;
 }
 input {
-  height: 25px;
+  height: 30px;
   width: 350px;
-  border-color: gainsboro;
+  border-color: rgba(247, 175, 49, 0.75);
   border-radius: 25px;
   margin-right: 10px;
 }
 button {
-  background-color: rgb(249, 237, 223);
+  background-color: rgba(252, 174, 40, 0.735);
   border: none;
   border-radius: 25px;
+  font-size: 16px;
   width: 75px;
   height: auto;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
 }
 input[type="text"] {
   text-align: center; /* for Chrome, Firefox, Opera */
+  font-size: 16px;
 }
