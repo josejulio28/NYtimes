@@ -9,7 +9,7 @@ const SearchBar = ({ searchTerm }) => {
   };
   return (
     <>
-      <form className="form_searchabr" onSubmit={handleSubmit}>
+      <form className="form_searchabr" onSubmit={handleSubmit} col->
         <input
           type="text"
           placeholder="Search for a word or phrase"
