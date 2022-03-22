@@ -18,9 +18,6 @@ export const ArticlesList = ({ articles }) => (
                 <p>
                   <i>{original}</i>
                 </p>
-                <p>
-                  <i>{original}</i>
-                </p>
               </article>
             </a>
           </div>
