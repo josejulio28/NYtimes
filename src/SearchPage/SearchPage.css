@@ -1,0 +1,26 @@
+.Container {
+  height: auto;
+  width: 100%;
+  justify-content: center;
+}
+.ListItem {
+  width: 600px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+h2,
+h1 {
+  /* font-size: 13px; */
+  align-content: center;
+  text-align: center;
+}
+.description {
+  width: 600px;
+  text-align: justify;
+  border: 1px solid black;
+  padding: 10px;
+}
