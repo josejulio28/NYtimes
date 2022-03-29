@@ -27,3 +27,11 @@ input[type="text"] {
   text-align: center; /* for Chrome, Firefox, Opera */
   font-size: 18px;
 }
+
+@media (max-width: 600px) {
+  input {
+    height: 30px;
+    width: 224px;
+    margin-right: 5px;
+  }
+}

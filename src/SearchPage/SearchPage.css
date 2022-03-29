@@ -19,3 +19,18 @@ h1 {
   border: 1px solid rgba(247, 175, 49, 0.5);
   padding: 10px;
 }
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .ListItem {
+    width: 300px;
+  }
+  .description {
+    width: 300px;
+  }
+}
