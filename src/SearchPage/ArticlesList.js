@@ -12,7 +12,7 @@ export const ArticlesList = ({ articles }) => (
         } = article;
         return (
           <div className="ListItem">
-            <a href={web_url} target="_blank">
+            <a href={web_url} target="_blank" rel="noreferrer">
               <article key={_id}>
                 <h2>{main}</h2>
                 <p>
