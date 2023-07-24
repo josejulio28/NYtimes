@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import SearchBar from "./Searchbar";
 import { ArticlesList } from "./ArticlesList";
 import "./SearchPage.css";
-import { selectArticles, setArticlesAction } from "../redux";
+import { setArticlesAction } from "../redux";
 
 const SearchPage = () => {
   const [term, setTerm] = useState("");
