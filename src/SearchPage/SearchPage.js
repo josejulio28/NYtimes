@@ -36,7 +36,7 @@ const SearchPage = () => {
     <div className="Container">
       <h1>New York Times Searcher</h1>
       <p className="description">
-        In this page you are able to find relevant article from the New York
+        In this page you are able to find relevant articles from the New York
         Times according to your search. By default, if you don't search for a
         word, it will give you ten interesting articles. To read the article on
         the New York Times website, click on the tilte.
