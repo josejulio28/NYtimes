@@ -10,7 +10,6 @@ const SearchPage = () => {
   const [searchResults, setSearchResults] = useState([]);
   const dispatch = useDispatch();
   const [isLoading, setIsLoading] = useState(true);
-  const articles = useSelector(selectArticles);
 
   useEffect(() => {
     const fetchArticles = async () => {
